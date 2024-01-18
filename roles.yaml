@@ -1,0 +1,6 @@
+- hosts: apache
+  remote_user: ubuntu
+  become: yes
+  roles:
+    - apache
+
